@@ -2,6 +2,7 @@ baseURL = 'https://glassdarkly.dev/'
 languageCode = 'en-us'
 title = 'Glass Darkly'
 theme = 'glass'
+disableKinds = ['taxonomy', 'term']
 
 [params]
   description = 'for now we see in part.'
