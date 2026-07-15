@@ -5,7 +5,7 @@
   <p class="site-description">{{ . }}</p>
   {{ end }}
   <div class="post-list">
-    {{ range where .Site.RegularPages "Section" "posts" }}
+    {{ range (where .Site.RegularPages "Section" "posts").ByDate }}
     <article class="post-summary">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
