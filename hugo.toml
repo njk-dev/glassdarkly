@@ -1,5 +1,5 @@
 baseURL = 'https://glassdarkly.dev/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Glass Darkly'
 theme = 'glass'
 disableKinds = ['taxonomy', 'term']

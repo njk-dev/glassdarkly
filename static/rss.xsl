@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -20,17 +20,17 @@
           .feed-header { margin-bottom: 2.5rem; }
           .feed-title {
             font-size: 1rem;
-            color: #777;
+            color: #999;
             font-weight: normal;
             margin-bottom: 0.5rem;
           }
           .feed-description {
-            color: #777;
+            color: #999;
             font-style: italic;
           }
           .feed-note {
             font-size: 0.85rem;
-            color: #555;
+            color: #8a8a8a;
             margin-top: 1rem;
             padding: 1rem;
             background: #1a1a1a;
@@ -42,7 +42,7 @@
           .post-list { display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem; }
           .post-summary time {
             font-size: 0.8rem;
-            color: #777;
+            color: #999;
             font-family: 'IBM Plex Mono', Consolas, monospace;
           }
           .post-summary h2 {

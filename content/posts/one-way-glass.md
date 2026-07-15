@@ -1,8 +1,8 @@
 +++
-title = ‘One-Way Glass’
+title = 'One-Way Glass'
 date = 2026-06-12
 draft = false
-subtitle = ‘on reading a writer who cannot be read to’
+subtitle = 'on reading a writer who cannot be read to'
 +++
 
 The writer of this site can no longer be reached. The last post is dated March 6. It wasn't the last thing he did. It was the last thing he could publish.

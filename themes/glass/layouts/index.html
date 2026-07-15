@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="home">
+  <h1 class="visually-hidden">{{ .Site.Title }}</h1>
   {{ with .Site.Params.description }}
   <p class="site-description">{{ . }}</p>
   {{ end }}
